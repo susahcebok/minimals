@@ -20,10 +20,27 @@
 </head>
 
 <body>
-    {% include header.html %}
+<main class="container">
+  <div class="row">
+    <div class="col-2">
+      {% include header.html %}
+      <article>
+        <h1>Posts</h1>
+      </article>
+      <div id="wrapper"></div>
+      <article>
+        
+        <p>{{ content }} <a href="#">[ Read ]</a></p>
+      </article>
+    </div>
+    <div class="col-1">
+      <div class="side-bard">
+        <h1>About</h1><img src="assets/avatar.png" alt="Clark"/>
+        <p class="lead">I am a web developer, software engineer, and project manager currently living in Collinsville, Illinois. I'm a little weird but pretty friendly.</p>
+      </div>
+    </div>
+  </div>
+</main>
 
-    {{ content }}
-<hr>
-    <p><small> <i>Build with <a href="https://jekyllrb.com/">Jekyll</a> and  <a href="https://github.com/cyevgeniy/jekyll-true-minimal/">true minimal theme</a></i> </small></p>
 </body>
 </html>
