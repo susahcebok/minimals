@@ -3,7 +3,7 @@ body {
   color: #000;
   font-size: 1rem;
 }
-body img {
+body img, canvas {
   width: 100%;
   height: auto;
   border-radius: 50%;
