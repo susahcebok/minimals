@@ -4,7 +4,7 @@ layout: default
 
 {% for post in paginator.posts %}
 <article>
-<h1>Posts {{ paginator.page }} of {{ paginator.total_pages }}</h1>
+<h1>Posting {{ paginator.page }} dari {{ paginator.total_pages }}</h1>
 </article>
 <div id="wrapper"></div>
 
@@ -12,7 +12,7 @@ layout: default
 {{ post.title }}
 </h1>
   
-<p>{{ post.excerpt | strip_html | truncate: 250 }} <br/><br/><a href='{{ site.url }}{{ post.url }}' title='{{ post.title }}'>[Baca selengkapnya...]</a></p>      
+<p>{{ post.excerpt | strip_html | truncate: 250 }} <a href='{{ site.url }}{{ post.url }}' title='{{ post.title }}'>Baca selengkapnya...</a></p>      
 {% endfor %}
 
 <div class='buttons'>
