@@ -462,3 +462,20 @@ body img, canvas {
   margin-left: auto;
   margin-right: 0;
 }
+input {
+  margin: 0.4em 0;
+  padding: 0.8em;
+  border: 0;
+}
+
+.qr-code {
+  border: 1px solid #9999;
+  border-radius: 5px;
+  text-align: center;
+  padding: 10px;
+  transition: display 1s;
+}
+
+.hidden {
+  display: none;
+}
