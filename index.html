@@ -7,13 +7,15 @@ layout: default
 <h1>Posts</h1>
 </article>
 <div id="wrapper"></div>
+
   <h1>
-    <a href='{{ site.url }}{{ post.url }}' title='{{ post.title }}'>
+    
       {{ post.title }}
-    </a>
+    
   </h1>
   
-  <p>{{ post.excerpt | strip_html | truncate: 250 }}</p>       
+  <p>{{ post.excerpt | strip_html | truncate: 250 }} <a href='{{ site.url }}{{ post.url }}' title='{{ post.title }}'>[ Read ]</a></p>     
+  
 {% endfor %}
 
 <div class='buttons'>
