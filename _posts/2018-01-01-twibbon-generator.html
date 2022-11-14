@@ -9,14 +9,18 @@ date:   2018-01-01 23:22:40 +0300
 <p>Klik kanan dan save untuk PC atau sentuh dan tahan lalu download image untuk smartphone.</p>
 
 <p>
-<img id="preview" src="no-image.png"/>
+<img id="preview" src="#"/>
 <img id="twibbon" src="/assets/img/twibbon.png" style="display: none"/>
 <canvas id="cumabertiga" style="display: none"></canvas>
 </p>
 
 <p>Pastikan gambar yang di upload memiliki ukuran.</p>
    
-<p><input id="fileInput" type="file" /></p>
+<p>
+<div class="button-group minor-group">
+<input class="button" id="fileInput" type="file" />
+</div>
+</p>
 
 <p>
 <button id="dpwload" onclick="drawImage()" class="button big">Buat twibbon!</button>
