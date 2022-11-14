@@ -17,12 +17,12 @@ layout: default
 
 <div class='buttons'>
 {% if paginator.previous_page %}
-<span class='button'><a href='{{ site.url }}{{ paginator.previous_page_path }}'>Sebelumnya</a></span>
+<span class='button'><a href='{{ site.url }}{{ paginator.previous_page_path }}'>&mdash; Sebelumnya</a></span>
 {% endif %}
 
 <!--{{ paginator.page }} of {{ paginator.total_pages }}-->
 
 {% if paginator.next_page %}
-<span class='button'><a href='{{ site.url }}{{ paginator.next_page_path }}'>Berikutnya</a></span>
+<span class='button'><a href='{{ site.url }}{{ paginator.next_page_path }}'>Berikutnya &mdash;</a></span>
 {% endif %}
 </div>
