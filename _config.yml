@@ -1,8 +1,8 @@
 name: "./Ferry Ayunda"
 description: "Just Another A Blog"
 
-url: 'https://susahcebok.github.io/minimals' 
-baseurl: '/'
+url: '' 
+baseurl: ''
 
 markdown: kramdown
 markdown_ext: "markdown,mkdown,mkdn,mkd,md"
