@@ -463,9 +463,9 @@ body img, canvas {
   margin-right: 0;
 }
 input {
-  background: #fdf0ed;
+  background: #fdfdff;
   padding: 1rem;
-  border: 1px solid #e8795d;
+  border: 1px solid #eee;
   width: 100%;
 }
 .qr-code {
