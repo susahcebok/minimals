@@ -468,12 +468,6 @@ input {
   border: 1px solid #eee;
   width: 100%;
 }
-input[type="text"] {
-  font-size:0.5rem;
-  font-family: "Cutive Mono";
-  margin-left: auto;
-  margin-right: auto;
-}
 .qr-code {
   border: 1px solid #9999;
   border-radius: 5px;
