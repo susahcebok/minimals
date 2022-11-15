@@ -578,14 +578,11 @@ label {
   white-space: nowrap;
 }
 .upload {
-  position: relative;
-  width: 100%;
-  margin: 0 auto;
-  display: block;
-  box-sizing: border-box;
-  color: #666;
-  border: solid 1px #ccc;
-  background-color: #fefefe;
+  padding:10px;
+  font-family: "Cutive Mono";
+  font-style: normal;
+  font-weight: normal;
+  text-decoration: inherit;
 }
 ::before {
   content: "+";
