@@ -108,7 +108,7 @@
 		buttonEl = document.querySelector("button#action"),
 		outputEl = document.querySelector("#output");
 
-	if (debug) inputEl.value = "";
+	if (debug) inputEl.value = "https://www.facebook.com/bungferry.wa";
 
 	buttonEl.addEventListener("mousedown", createShortUrl.bind(inputEl), false);
 	inputEl.addEventListener(
