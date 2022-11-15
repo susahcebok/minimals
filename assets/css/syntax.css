@@ -586,40 +586,36 @@ label {
   color: #666;
   border: solid 1px #ccc;
   background-color: #fefefe;
-  
 }
-&::before {
-    content: "+";
-    height: 100%;
-    width: 30px;
-    top: 0;
-    right: 0;
-    position: absolute;
-    color: #666;
-    text-align: center;
-    line-height: 21px;  
-  }
-  
-&::after {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    cursor: pointer;
-  }
-  
-  [type="file"] {
-    width: 100%;
-    padding: 3px;
-    box-sizing: border-box;
-
-    &::-webkit-file-upload-button {
-      -webkit-appearance: none;
-      width: 0;
-      height: 0;
-      padding: 0;
-      border: 0;
-    }
-  }
+::before {
+  content: "+";
+  height: 100%;
+  width: 30px;
+  top: 0;
+  right: 0;
+  position: absolute;
+  color: #666;
+  text-align: center;
+  line-height: 21px;
+}
+::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  cursor: pointer;
+}
+[type="file"] {
+  width: 100%;
+  padding: 3px;
+  box-sizing: border-box;
+}
+[type="file"]::-webkit-file-upload-button {
+  -webkit-appearance: none;
+  width: 0;
+  height: 0;
+  padding: 0;
+  border: 0;
+}
