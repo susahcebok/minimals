@@ -585,7 +585,7 @@ label {
   text-decoration: inherit;
 }
 ::before {
-  content: "+";
+  content: "";
   height: 100%;
   width: 30px;
   top: 0;
@@ -596,7 +596,7 @@ label {
   line-height: 21px;
 }
 ::after {
-  content: "";
+  content: "Upload file: ";
   position: absolute;
   top: 0;
   left: 0;
