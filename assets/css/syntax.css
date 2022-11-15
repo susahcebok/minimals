@@ -590,14 +590,12 @@ label {
   width: 30px;
   top: 0;
   right: 0;
-  position: absolute;
   color: #666;
   text-align: center;
   line-height: 21px;
 }
 ::after {
-  content: "Upload file: ";
-  position: absolute;
+  content: "";
   top: 0;
   left: 0;
   right: 0;
