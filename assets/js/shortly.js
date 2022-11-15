@@ -100,7 +100,7 @@
 			});
 		} else {
 			outputEl.innerHTML =
-				"<span class='error'>Harap masukkan URL yang valid, termasuk. http://</span>";
+				"<span class='error'><strong>Harap masukkan URL yang valid, termasuk. http://</strong></span>";
 		}
 	};
 
