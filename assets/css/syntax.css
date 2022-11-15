@@ -462,11 +462,12 @@ body img, canvas {
   margin-left: auto;
   margin-right: 0;
 }
-input {
-  background: #fdfdff;
-  padding: 1rem;
-  border: 1px solid #eee;
-  width: 100%;
+textarea, input {
+  padding:10px;
+  font-family: "Cutive Mono";
+  font-style: normal;
+  font-weight: normal;
+  text-decoration: inherit;
 }
 .qr-code {
   border: 1px solid #9999;
