@@ -463,11 +463,11 @@ body img, canvas {
   margin-right: 0;
 }
 input {
-  margin: 0.4em 0;
-  padding: 0.8em;
-  border: 0;
+  background: #fdf0ed;
+  padding: 1rem;
+  border: 1px solid #e8795d;
+  width: 100%;
 }
-
 .qr-code {
   border: 1px solid #9999;
   border-radius: 5px;
