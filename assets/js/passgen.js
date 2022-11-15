@@ -23,7 +23,7 @@ button.click(function() {
   }
   var length = parseInt($("#length").val());
   if (isNaN(length)) {
-    password.text("Enter password length");
+    password.text("Masukkan panjang kata sandi");
     return;
   }
   var pw = "";
