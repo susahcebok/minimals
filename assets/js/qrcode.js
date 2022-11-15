@@ -21,6 +21,3 @@ genBtn.addEventListener("click", () => {
     }
   });
 });
-
-// copy
-susahcebokCop("QR Code Generator", "#999");
