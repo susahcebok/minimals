@@ -577,7 +577,13 @@ label {
   max-width: 98%;
   white-space: nowrap;
 }
-
+.upload {
+  padding:10px;
+  font-family: "Cutive Mono";
+  font-style: normal;
+  font-weight: normal;
+  text-decoration: inherit;
+}
 &::before {
     content: "+";
     height: 100%;
