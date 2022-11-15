@@ -583,6 +583,7 @@ label {
   font-style: normal;
   font-weight: normal;
   text-decoration: inherit;
+  border: 1px solid #aaa;
 }
 ::before {
   content: "";
@@ -595,7 +596,7 @@ label {
   line-height: 21px;
 }
 ::after {
-  content: "+";
+  content: "";
   top: 0;
   left: 0;
   right: 0;
