@@ -515,3 +515,5 @@ textarea, input {
 @keyframes blinker { 
   from { opacity: 1.0; } to { opacity: 0.0; }
 }
+::-moz-selection{background:#F0FF42}
+::selection{background:#F0FF42}
