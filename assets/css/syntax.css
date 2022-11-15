@@ -540,3 +540,40 @@ textarea, input {
   50%{opacity:0;}
   100%{opacity:1;}
 }
+susahcebok {
+  margin: 10px 0 0 0;
+}
+
+label {
+  margin-right: 16px;
+  margin-left: -5px;
+}
+
+#length {
+  padding: 10px;
+}
+
+#new {
+  outline: none;
+  border: none;
+  border-radius: 2px;
+  background: #eee;
+  color: #222;
+  padding: 10px;
+  cursor: pointer;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  transition: 0.3s background;
+  &:hover {
+    background: #ddd;
+  }
+}
+
+#password {
+  display: inline-block;
+  padding: 10px;
+  font-size: 20px;
+  border: 1px solid #aaa;
+  overflow-x: auto;
+  max-width: 98%;
+  white-space: nowrap;
+}
