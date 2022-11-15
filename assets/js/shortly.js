@@ -58,9 +58,9 @@
 					if (debug) console.log("mouseup event triggered");
 					copyToClipboard(data.shorturl);
 					outputEl.innerHTML =
-						"<span>URL pendek <strong>" +
+						"URL pendek <span><strong>" +
 						data.shorturl +
-						"</strong> disalin ke papan klip.</span>";
+						"</strong></span> disalin ke papan klip.";
 					// IE/Edge doesn't support the "once: true" parameter
 					// so the handler must be removed manually
 					window.removeEventListener("mouseup", mouseupHandler, false);
@@ -108,7 +108,7 @@
 		buttonEl = document.querySelector("button#action"),
 		outputEl = document.querySelector("#output");
 
-	if (debug) inputEl.value = "https://codepen.io/pmk/pen/qgLdzJ";
+	if (debug) inputEl.value = "";
 
 	buttonEl.addEventListener("mousedown", createShortUrl.bind(inputEl), false);
 	inputEl.addEventListener(
