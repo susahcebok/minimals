@@ -577,3 +577,8 @@ label {
   max-width: 98%;
   white-space: nowrap;
 }
+input[type="file"] { 
+  z-index: -1;
+  position: absolute;
+  opacity: 0;
+}
