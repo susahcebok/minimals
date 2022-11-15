@@ -517,3 +517,26 @@ textarea, input {
 }
 ::-moz-selection{background:#F0FF42}
 ::selection{background:#F0FF42}
+.text {
+  animation: type 3s steps(27);
+  color: #000;
+  font-family: consolas;
+  white-space: nowrap;
+  overflow: hidden;
+  }
+
+@keyframes type{
+  0%{
+    width:0ch;
+  }
+  
+  100%{
+    width:27ch;
+  }
+}
+
+@keyframes blink{
+  0%{opacity:1;}
+  50%{opacity:0;}
+  100%{opacity:1;}
+}
