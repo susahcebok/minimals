@@ -625,7 +625,11 @@ label {
   font-size:18px;
   margin:20px 0;
 }
-
+.textfields{
+  width:100%;
+  max-width:500px;
+  margin: 0 auto
+}
 .name, .font-generator-kaomoji-kuma p{
   flex-grow: 1;
  flex-basis: auto;
