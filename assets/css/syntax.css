@@ -615,3 +615,52 @@ label {
   padding: 0;
   border: 0;
 }
+#my-text {
+    padding: 20px;
+    border: 1px solid #111;
+    border-radius: 4px;
+    background: #eee;
+    min-height:3rem;
+  width:100%;
+  font-size:18px;
+  margin:20px 0;
+}
+
+.name, .font-generator-kaomoji-kuma p{
+  flex-grow: 1;
+ flex-basis: auto;
+  margin: 0px;
+  padding:10px;
+  
+  line-height:20px;
+  width:AUTO;
+}
+
+.font-generator-kaomoji-kuma p{
+  background:#eee;
+  border-radius:4px;
+  
+}
+.font-generator-kaomoji-kuma p:hover {
+    cursor: pointer;
+    box-shadow:5px 5px #deb3e0
+}
+.font-generator-kaomoji-kuma{
+display: flex;
+margin-bottom: 1.75em;
+box-sizing: border-box;
+flex-wrap: wrap;
+}
+.copybutton {
+    padding: 20px;
+    border: 1px solid #111;
+    border-radius: 4px;
+    background:#9BB8ED;
+    margin:0 0 10px;
+    font-size:18px;
+  width:200px;
+}
+.copybutton:hover {
+    cursor: pointer;
+    box-shadow:5px 5px #deb3e0
+}
